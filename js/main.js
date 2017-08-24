@@ -22,7 +22,10 @@ $('.foodFour').on('click', function() {
   $('.dessert').slideToggle();
 });
 
-
+$('button').on('click', function() {
+  $('form').slideToggle();
+  $('.funny').fadeToggle();
+});
 // When user clicks reservations button
   // Form slide left onto page
   // Form is a different color from the rest of the page

@@ -17,7 +17,7 @@ body{
  color: white;
  letter-spacing: 3px;
  -webkit-font-smoothing: antialiased;
- background-color: #44361e;
+ background-color: #1e1e1e;
 }
 
 h2{
@@ -116,11 +116,16 @@ a{
 }
 
 .icon{
-  font-size: 35px;
+  font-size: 38px;
   text-decoration: none;
-  margin-right: 10px;
-  margin-left: 10px;
   width: 100%;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.icon h2{
+  font-size: 24px;
+  text-align: center;
 }
 
 .quote{
@@ -143,7 +148,7 @@ a{
   display: block;
 }
 
-.img{
+.pots{
   background-image: url('../img/pot.jpg');
   background-size: cover;
   background-attachment: fixed;
@@ -156,9 +161,11 @@ a{
   text-align: center;
   margin-bottom: 100px;
 }
+
 .begin{
   margin-left: 30px;
 }
+
 .family{
   background-image: url('../img/riceman.jpg');
   background-size: cover;
@@ -168,16 +175,19 @@ a{
   padding-left: 30px;
   display: none;
 }
+
 .owner{
  text-align: center;
  margin-top: 100px;
 }
+
 .chef{
   display: flex;
   text-align: center;
   margin-bottom: 50px;
   width: 100%;
 }
+
 .chef, .owner p{
   margin-left: 50px;
   margin-top: 50px;
@@ -185,6 +195,7 @@ a{
   justify-content: space-around;
   width: auto;
 }
+
 .pics{
   text-align: center;
 }
@@ -194,7 +205,7 @@ a{
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
-  padding-bottom: 150px;
+  padding-bottom: 25px;
   padding-top: 100px;
 }
 
@@ -204,6 +215,7 @@ a{
   margin-bottom: 50px;
   display: none;
 }
+
 .main, .mainTwo{
   display: flex;
   text-align: center;
@@ -213,7 +225,6 @@ a{
   margin-bottom: 50px;
   text-align: center;
   color: white;
-  padding-top: 30px;
   padding-bottom: 30px;
   display: none;
 }
@@ -245,6 +256,7 @@ a{
 .side{
   margin-right: 50px;
 }
+
 input, textarea{
   display: block;
   margin-top: 15px;
@@ -252,15 +264,20 @@ input, textarea{
   border-radius: 3px solid black;
   width: 80%;
 }
+
 footer{
-  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
+
 footer a{
   margin-left: 30px;
   margin-bottom: 20px;
   text-align: left;
   display: inline-block;
-  color: blue;
 }
 
 form{
@@ -269,20 +286,55 @@ form{
   padding: 40px 20px;
   color: #444;
   background-color: white;
-  width: 60%;
+  width: 75%;
+  margin-left: 100px;
 }
-
 
 button{
-  color: black;
-  padding: 20px;
+    font-size: .85em;
+    font-weight: 600;
+    padding: 10px 20px;
+    cursor: pointer;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    background-color: #c0392b;
+    margin-left: 80px;
+  }
+
+.hours{
+  margin-top: 30px;
+  text-align: center;
 }
 
-#close{
-  color: black;
+.fa{
+  color: #c0392b;
+  transition: all 1s ease-in-out;
+}
+
+.fa:hover{
+  transform: translateY(10px);
+  color: white;
+  transition: all 1s ease-in-out;
+}
+
+#reserve{
+  margin-left: 70px;
 }
 
 p{
   margin-left: 70px;
   margin-right: 70px;
+}
+
+img:hover{
+  opacity: .6;
+}
+
+.funny{
+  display: none;
+  margin-top: 40px;
 }
